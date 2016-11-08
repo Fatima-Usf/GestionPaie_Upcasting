@@ -23,7 +23,8 @@ public class EmployePleinTemps extends Employe{
         salaire=(salaireS*4)+prime;
         return salaire;
     }
-
+    
+    //redéfinir la méthode affiche en rajoutant le salaire apré d'avoir été calculer du coup au main il suffit d'appler cette methode
     public String affiche(){
         return "l'employer : "+this.nom+"  qui est "+this.fonction+"  a comme salaire "+calcule_salaire()+" DA";
     }
